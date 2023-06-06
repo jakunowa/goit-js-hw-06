@@ -17,8 +17,6 @@ function add(){
     
     }
 
-minus()
-add()
 
 minusBtn.addEventListener('click', minus)
 addBtn.addEventListener('click', add)
