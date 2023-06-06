@@ -19,7 +19,3 @@ const submitHandler = (event) => {
 
 form.addEventListener("submit", submitHandler);
 
-
-const handler=(event)=>{console.log(event)}
-
-handler(event)
