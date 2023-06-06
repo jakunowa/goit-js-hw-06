@@ -7,17 +7,17 @@ const ingredients = [
   'Condiments',
 ];
 
+const ulList=document.querySelector('ul');
+const liNodes=[];
+
+ingredients.forEach(el=>{
+const li= document.createElement('li')
+liNodes.push(li)
 
 
-for( const el of ingredients){
- const ulList=document.querySelector('ul');
+ li.classList.add('item')
+ li.textContent=el;
+
+})
+ulList.append(...liNodes)
  
- const ingredient= document.createElement('li')
-ulList.appendChild(ingredient)
-
-
- ingredient.classList.add('item')
- ingredient.textContent=el;
-
- console.log(ingredient)
-}
